@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.blakgeek.cordova.superdopeness" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>CocoapodsDemo</name>
+    <description>
+        An app demonstrating the use of CocoaPods dependencies.
+    </description>
+    <content src="index.html" />
+    <access origin="*" />
+    <platform name="ios">
+        <!-- add use_frameworks! to Podfile, this also disabled bridging headers -->
+        <preference name="pods_use_frameworks" value="true"/>
+        <pod name="TwilioSDK" version="1.2.7" />
+    </platform>
+</widget>
