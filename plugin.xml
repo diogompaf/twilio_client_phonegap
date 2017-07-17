@@ -42,7 +42,6 @@
 
     <!-- ios -->
     <platform name="ios">
-
         
         <!-- Add the Twilio Client plugin to the iOS app's config.xml -->
         <config-file target="config.xml" parent="widget">
@@ -60,6 +59,7 @@
             </array>
         </config-file>
         
+        <framework src="iCarousel" type="podspec" spec="~> 1.8" />
 
         <framework src="AudioToolbox.framework" />
         <framework src="AVFoundation.framework" />
