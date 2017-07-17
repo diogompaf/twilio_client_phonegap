@@ -50,7 +50,7 @@
           </feature>
         </config-file>
 
-        <framework src="TwilioSDK" type="podspec" spec="=1.2.7" />
+        <framework src="TwilioSDK" type="podspec" spec="~> 1.2.7" />
 
 
         <!-- Add support for background VOIP and audio to the plist -->
