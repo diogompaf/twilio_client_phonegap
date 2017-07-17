@@ -7,7 +7,7 @@
     <content src="index.html" />
     <access origin="*" />
     <platform name="ios">
-        <!-- add use_frameworks! to Podfile, this also disabled bridging headers -->
+        <preference name="pods_ios_min_version" value="8.0"/>
         <preference name="pods_use_frameworks" value="true"/>
         <pod name="TwilioSDK" version="1.2.7" />
     </platform>
