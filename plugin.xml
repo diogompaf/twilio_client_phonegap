@@ -52,6 +52,6 @@
                 <string>audio</string>
             </array>
         </config-file>
-        <framework src="WebRTC" type="podspec" spec="~> 58.17" />
+        <pod name="WebRTC" version="58.17" />
     </platform>
 </plugin>
