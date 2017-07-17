@@ -6,6 +6,9 @@
 
     <name>TwilioClient</name>
     <description>Use the native Twilio Client for iOS or Android with Cordova/PhoneGap and the Twilio Client JavaScript API</description>
+    
+    <dependency id="cordova-plugin-cocoapod-support"/>
+    
     <author>Stevie Graham/Lyle Pratt/Jeff Linwood</author>
     <license>Apache</license>
 
@@ -59,7 +62,7 @@
             </array>
         </config-file>
         
-        <framework src="iCarousel" type="podspec" spec="~> 1.8" />
+        <pod name="TwilioSDK" version="1.2.7" />
 
         <framework src="AudioToolbox.framework" />
         <framework src="AVFoundation.framework" />
