@@ -43,7 +43,6 @@
     <!-- ios -->
     <platform name="ios">
 
-        <framework src="TwilioSDK" type="podspec" spec="~> 1.2" />
         
         <!-- Add the Twilio Client plugin to the iOS app's config.xml -->
         <config-file target="config.xml" parent="widget">
