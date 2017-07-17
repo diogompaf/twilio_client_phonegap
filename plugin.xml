@@ -62,8 +62,9 @@
             </array>
         </config-file>
         
+        <pods-config use-frameworks="true"/>
+        
         <pod name="TwilioSDK" version="1.2.7" />
-        <pod name="Lock" fix-bundle-path="Lock/Auth0.bundle"/>
 
         <framework src="AudioToolbox.framework" />
         <framework src="AVFoundation.framework" />
