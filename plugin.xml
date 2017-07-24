@@ -52,6 +52,6 @@
                 <string>audio</string>
             </array>
         </config-file>
-        <pod name="WebRTC" version="58.17" />
+        <pod name="TwilioSDK" version="1.2" />
     </platform>
 </plugin>
